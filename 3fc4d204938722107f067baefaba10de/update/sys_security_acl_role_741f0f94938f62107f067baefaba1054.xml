@@ -4,15 +4,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 09:41:33</sys_created_on>
         <sys_id>741f0f94938f62107f067baefaba1054</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1233104_print_0_design_task.x_1233104_print_0.user</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1233104_print_0_design_task.x_1233104_print_0.design_user</sys_name>
         <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
         <sys_policy/>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_security_acl display_value="x_1233104_print_0_design_task">b01f0f94938f62107f067baefaba1051</sys_security_acl>
         <sys_update_name>sys_security_acl_role_741f0f94938f62107f067baefaba1054</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 09:41:33</sys_updated_on>
-        <sys_user_role display_value="x_1233104_print_0.user" name="x_1233104_print_0.user">44d4d204938722107f067baefaba10fa</sys_user_role>
+        <sys_updated_on>2025-08-02 21:46:54</sys_updated_on>
+        <sys_user_role display_value="x_1233104_print_0.design_user" name="x_1233104_print_0.design_user">87c63df29383ea107f067baefaba105b</sys_user_role>
     </sys_security_acl_role>
 </record_update>

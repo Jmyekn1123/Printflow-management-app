@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f8d6aa8893c722107f067baefaba1005" label="Job Order" max_length="40" name="x_1233104_print_0_job_order" type="collection">
+        <element label="Payment reference" max_length="32" name="payment_reference" reference="x_1233104_print_0_payment" type="reference"/>
         <element label="Job Brief" max_length="65536" name="design_brief" type="html"/>
         <element label="Contact Info" max_length="40" name="contact_info" type="email"/>
         <element attributes="encode_utf8=false" label="Client Name" max_length="50" name="client_name" type="string"/>
+        <element label="Payment" max_length="255" name="payment" type="boolean"/>
         <element label="Job Number" max_length="40" name="job_number" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Job Status" max_length="40" name="status" type="choice">
             <choice>
@@ -19,6 +21,9 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="client_name"/>
+        </index>
+        <index name="index2">
+            <element name="payment_reference"/>
         </index>
     </element>
 </database>
