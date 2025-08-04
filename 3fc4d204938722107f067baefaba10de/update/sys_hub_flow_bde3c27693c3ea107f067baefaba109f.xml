@@ -4,7 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
-        <attributes>browserActivatedIn=safari,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=safari,integrationActivatedIn=standalone,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,7 +16,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>new_job_order_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"c3524ac8-27a4-4a4b-b4cb-2950fb3be32b":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.payment","label":"Trigger - Record Created or Updated➛ Record➛Payment","reference":"","reference_display":"Payment","type":"boolean","base_type":"boolean","parent_table_name":"x_1233104_print_0_job_order","column_name":"payment","usedInstances":{"80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327":["condition"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛ Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_job_order","column_name":"sys_id","usedInstances":{"095eea64-1fe5-4925-9de4-cb207e1cc554":["job_order"],"f80be21d-426c-487d-b2c1-05237a286ec1":["job_order"]}},{"name":"Created or Updated_1.current.payment","label":"Trigger - Record Created or Updated➛ Record➛Payment","reference":"","reference_display":"Payment","type":"boolean","base_type":"boolean","parent_table_name":"x_1233104_print_0_job_order","column_name":"payment","usedInstances":{"80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛ Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"c3524ac8-27a4-4a4b-b4cb-2950fb3be32b":["record"],"9bf5945f-09e5-4d5f-9b0a-281276abe5cb":["record"],"51debbe0-7120-4e61-9ed1-dba64ecec6d5":["record"]},"attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bde3c27693c3ea107f067baefaba109f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>New job order flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_update_name>sys_hub_flow_bde3c27693c3ea107f067baefaba109f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-02 23:28:37</sys_updated_on>
+        <sys_updated_on>2025-08-04 22:23:51</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -344,7 +344,31 @@
         <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bde3c27693c3ea107f067baefaba109f^sys_idNOT IN87f9027e93c3ea107f067baefaba1038,9c8f86369307ea107f067baefaba10f8"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bde3c27693c3ea107f067baefaba109f^sys_idNOT IN47d350a39387ae107f067baefaba1031,87f9027e93c3ea107f067baefaba1038,b89880cb934fea107f067baefaba10cd,e0235c0b938fea107f067baefaba1075"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="New job order flow">bde3c27693c3ea107f067baefaba109f</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 22:23:51</sys_created_on>
+        <sys_id>47d350a39387ae107f067baefaba1031</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 22:23:51</sys_updated_on>
+        <ui_id>f80be21d-426c-487d-b2c1-05237a286ec1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUyW7bMBD9FYNnQSAt10h8Kxr41qTokksaEJQ4sllQJEtSjlXD/96hFjdNYyAIChT1yXyzvDeb7g5ESbIiSwb0zSVbVgUrijml84sFK5dFyeayEAALkhEjGkDPKEoNvH9kZCd0m8A9Z/OiYHTBnVcmcsqd6BowEX2kCk6L7nZ0/XAyVFulpQdDVnf3GXHCY84InqwOT0yxc8C1KEFj/OfEP7se+F+q/bfgM7UklqeY9TIJohmBfQQjAflqoQNkpBFGimh9R1bRtwh4EPLG6O7kscVOYEKSfPdB/cDsFzT51YClVTDYTk8+NmqAq61VFdy4qKwZkF7YaLS6bcz1UERqMdSi1XFqMSJtwHzgkuQkYlRUf9rah48T4VqZvrrRqG0l9OklYvSqbCOENA/QkIbGG+GcMhucst2pPhi1NPlG4yOvtX1A0qA2JhdVEp5jh0S+Rvyqh2+FV6mK95gGg4999fx7m3iHOkbFfCgaHULllYtvMd0ORnHHbFpaCfTy7OBZ+WvQ/Z6GRwv7zZa8H+7XltJCHg7vcHwR5Mz62Rcn01/O8qr12KmYhy5wJY/HP7f51XleufzQIHuE2cCfvbgPU4K1Ai3DM42Ztn8k4LuRYLwA9rcugC1p//s3dzDo/M/O4NEX6cxB3P8ESHb+3McFAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47d350a39387ae107f067baefaba1031"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -370,8 +394,8 @@
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=87f9027e93c3ea107f067baefaba1038"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
-        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -382,19 +406,43 @@
         <parent_ui_id>80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-02 23:28:37</sys_created_on>
-        <sys_id>9c8f86369307ea107f067baefaba10f8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-08-03 08:17:35</sys_created_on>
+        <sys_id>b89880cb934fea107f067baefaba10cd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-02 23:28:37</sys_updated_on>
-        <ui_id>f63749d8-1fad-4c5e-8052-15afac8d1274</ui_id>
+        <sys_updated_on>2025-08-03 08:57:14</sys_updated_on>
+        <ui_id>095eea64-1fe5-4925-9de4-cb207e1cc554</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUy27bMBD8lYBnwZWt2I59C1D41gRoi/SQBsRKWtlEKVKlKD8a5N+7FCnbSRBXMAqkBXThPoYzuyPePzKRsznDaQKTJBmPk2EcJ/SlxTCfDeMZZuOr6ThjEVNQIlVaqH9wC6lEiq1BNi645cNRQq2XvDJCWR7zHGuxVNxVU10u6krC7q5nebYSMjeo2Pz+IWIVGLraomHzxxcpu6uQS0hREupXR+rixtGMeqt61vyGSndLG6MjVx5fm9wRiiOGW4sqR7qvAFljxEpQOVhtdmxuTUMBg5DfKrnbV6xINAEyV7utxS9Cv4pdXYEkLUOf2x95GJ8PZystMrytrNDKRzxPn9SyKdWNF+EGjwU00naDp0hTEx5WjrIjERgVX1Z687m7cCFUqy4kpc5A7k9grRFpY7F2+0iB8DoCYX0osSRwXkJVCbWkJeu1aAGJXzlYSjoMCqk3Ye0DyJyYAU0NBguKf2zDd2CEA/5EMNT81E6E/2wcF68tqOB+EFRQZ0ZU9prg1hgIP0XB4qOTZpikh+UXAmXOW2/XRyavLVj83lBnPnvt6RfZMy2MJWFavPCoUW/mHcDCUffd9ZuCOj+Hy3zi4OnhaU+HSB9TT8Zx/E6+9n/e2bZ+HwsfvTp/MHNRnLLEdHrY/QaEPTJx/Nq5LfL5lqVBf1gEiL7cuuZvntxzqsGeqdYSQR18Ofprvrz8Tx/bf+thffgNuGrL7z0IAAA=</values>
+        <values>H4sIAAAAAAAA/9VUTW8aMRD9K8jn1cpmKQrcqlbcmkhtmkuaWt71AG699tb2Eijiv3e8NjRNghRVkapyYr7evDfj2ds9UZLMyZQBfTNj06ZiVTWmdHwxYfW0qtlYVgJgQgpiRAuYGUStgQ9GQTZC99G55WxcVYxOeOeUCZxyCV6tDA/Cf8c8qXynxe4mp78fgqPrFGzWSksHhsxv7wrSCYfYARyZ7x+Fwq4DrkUNGjGuI4/RZeLxUg1/FJ/RFLs89lknIyFaENgGMBKw31JoDwVphZEiWLcj8+B6dDgQ8sro3SljjRNBQBJzt179RPQLGvOWgNIaSLGTyfOwkrtZW9XAVReUNckzEMtBq/vWXCYRccywFL0OxzGjp/eIB12kHElkRstPa3v/8dhwocygLge1bYQ+WSIEp+o+gI/7AA0tAvFWdJ0yK9y23aihGLm05UqjUS61vc/7L0UTiZc4IVEu0J82fyOciio+IAwWHwb1/Ecf+yYdmTFPojHBN0514S3CbSCTOxTHxyuBzs4untW/Fz28V//g4X6zNR+W+6WntJL7/TtcXwA5sm70uZPxL2dl0zucVCj9znMlD4evPmAklcyePu/XAf3Ls4AWqQQYJTLFiyd0BFgo0NI/M7LjXeQGfJMb5Ntgr3UbbEqH37+5kMTzPzuQB9+qM6dy9wuIgdx66QUAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c8f86369307ea107f067baefaba10f8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b89880cb934fea107f067baefaba10cd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="New job order flow">bde3c27693c3ea107f067baefaba109f</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>51a08268-083d-4878-a58c-d904d77a076e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-03 09:03:43</sys_created_on>
+        <sys_id>e0235c0b938fea107f067baefaba1075</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 22:23:51</sys_updated_on>
+        <ui_id>51debbe0-7120-4e61-9ed1-dba64ecec6d5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KfjZHiNLR5Gw2BPayFbutLV4RsXRINWfJkOT8W8r/vJMtp2m1tGIExmJ+s091933f3oYddIkUySUYgCL2i4zKneT4kZHg5osU4L+hQ5ByAJmmieQWYaaE0VuB5xVXrA7vdtQXuQAyMHXyuhf9lNCtba0G7/R5ThWxqxbf3sQIj5VIqgffJ5OExTWpusbkDm0x2L67ctgameAEKC6embCtsOng/xR6nEu+r73rmL5V4DDyL2J1JH8Qrz4eSNIGNAy0A4eZcNZAmFdco09htMnG2xQAOQNxqtT1kLKV2ndKKbxr5HfuPiM+bA0or4xQORxYn1A/HyBJuayeN7iKOF6qfnFFtpW86CX62MOetckezbRvsB7Wn7El0DOcfl2Z91+PNpA7qIltlSq4OJ+6clUXroPHrAAVhKBWva6kXrLZmJUMxUqmyhcJDNldmjZiNXOiMl553hgPi2Qzj0xC+51Z6ER+wDRbvg3j2rfW4nYxImAXNQTALi8LUprSydu+w8QoizX0anVtcvGaA8upp30c9n9y7YXSY55SMUBjujBH21RSsW/75jPvJQw9uOuhTaT8r/o2MaN1nsejci7M59/IvOTcy+ses+5ZhyfDVF+to08GjzZFZG8dd23xpCckFX3Ppgiq+9Sp/dusb2X/oZKgQw8GgQ0lP1tQ3mElQovmFyN7KEYCtIsDhIT6bn+mYhO//e3zG9/jxB0W/+UtLCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e0235c0b938fea107f067baefaba1075"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bde3c27693c3ea107f067baefaba109f"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bde3c27693c3ea107f067baefaba109f^sys_idNOT INcbf9027e93c3ea107f067baefaba1036"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bde3c27693c3ea107f067baefaba109f^sys_idNOT INcbf9027e93c3ea107f067baefaba1036,e8235c0b938fea107f067baefaba1074"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">03f9027e93c3ea107f067baefaba1036</block>
@@ -413,13 +461,40 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-02 23:04:30</sys_created_on>
         <sys_id>cbf9027e93c3ea107f067baefaba1036</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-02 23:28:37</sys_updated_on>
+        <sys_updated_on>2025-08-04 22:23:51</sys_updated_on>
         <ui_id>80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2UTW/bMAyG/0rgs2H4ow7W3IoOBQZs67B2vWyFIUt0IkyWNElOmgX57yP9kQZdgg3FjrtZLynyJfXAu8h0wXbB35sr7+VSR4uvj3EkNWn4vYs0ayFaRNxoIYM0uuqFOFoz1VHgE9u2oMNM+llwHUWE9Fax7cPZBL6SSjgYe1nmsGIAFy12L0Jha6FSrAaFde6Ck3qJ16XAU5OyJrvkGS/yeZGnaf7mIqvnRZ3lomDACsybLl5P1mfveyU+OxP1Q91PnYwTZCtL4wieAmgB2LphykMctUwLFozbHhQHTNxq9SyspA5YLqLkJy9/Yu28LCmxAZyRwxA8HKtxc4PMV0ZyuLVkcFACq9V4hxvVtfrjMAftHBrWqTDtHJXOYz2wZJpcjJaau5XZfJ4a3kjdDzgGleFMHU4s4BrqLoCnhwEF9IpVy6zF5VTWmbXsL6OXNlkqPCSNMhtsShwljJPxBHfEkhvU3/byA3OSpviAZfDyYLNmXvKqZw7L9ZDs+7VUPzoyNAw4jlIN28AEz5204Qr7rGF0vY9/B/aI1d3uGh8pgJgZN/tiBX1WWcI7h+sIiR1I3e+/dWlaiNM4v6rGvyD+kpVNmaXlaeIv5qeIP8H6eczzP2BOs/wl5Wma/sf8GHPpqwHXcba++aspfySkhw5+4EYAlx6N3JP2bvp7U2CLAEh+LG2M+04jPGv7X6q22nAHBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e0235c0b938fea107f067baefaba1074</block>
+        <comment/>
+        <connected_to>80fa8d7b-8ae0-4d6d-a3a4-f21ed30e5327</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="New job order flow">bde3c27693c3ea107f067baefaba109f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-03 09:03:43</sys_created_on>
+        <sys_id>e8235c0b938fea107f067baefaba1074</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 22:23:51</sys_updated_on>
+        <ui_id>51a08268-083d-4878-a58c-d904d77a076e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bde3c27693c3ea107f067baefaba109f"/>

@@ -4,27 +4,27 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>04508a3293c3ea107f067baefaba1005</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>762754a79387ae107f067baefaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>client</element>
+            <element>job_order.client_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>88508a3293c3ea107f067baefaba1005</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>7e2754a79387ae107f067baefaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>sys_created_on</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>00508a3293c3ea107f067baefaba1006</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>762754a79387ae107f067baefaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,69 +46,55 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>84508a3293c3ea107f067baefaba1006</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>7e2754a79387ae107f067baefaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>job_order.job_number</element>
+            <element>job_order.payment_reference</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>0c508a3293c3ea107f067baefaba1006</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>762754a79387ae107f067baefaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>job_order</element>
+            <element>job_order.amount</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>80508a3293c3ea107f067baefaba1007</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>7e2754a79387ae107f067baefaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>payment_reference</element>
+            <element>job_order.number</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>08508a3293c3ea107f067baefaba1007</sys_id>
+            <sys_created_on>2025-08-04 22:38:18</sys_created_on>
+            <sys_id>762754a79387ae107f067baefaba1006</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>amount</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-02 22:22:14</sys_created_on>
-            <sys_id>8c508a3293c3ea107f067baefaba1007</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_payment" sys_domain="global" view="Default view">553d717a9383ea107f067baefaba1062</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-02 22:22:14</sys_updated_on>
+            <sys_updated_on>2025-08-04 22:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
