@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0f0f8b94938f62107f067baefaba10f7" extends="task" label="Design Task" max_length="40" name="x_1233104_print_0_design_task" type="collection">
         <element label="Design Artwork" max_length="255" name="design_artwork" type="file_attachment"/>
+        <element default="Design Group" label="Designers group" max_length="32" name="designers_group" reference="sys_user_group" type="reference"/>
         <element label="Job Order" max_length="32" name="job_order" reference="x_1233104_print_0_job_order" type="reference"/>
     </element>
 </database>
