@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Design Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Design Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a734e77b04312210559073c06a02f70f</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 09:41:27</sys_created_on>
+        <sys_id>9b0f8b94938f62107f067baefaba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Design Task</sys_name>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name>sys_wizard_answer_9b0f8b94938f62107f067baefaba10f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 09:41:27</sys_updated_on>
+        <table/>
+        <target_url>x_1233104_print_0_design_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
