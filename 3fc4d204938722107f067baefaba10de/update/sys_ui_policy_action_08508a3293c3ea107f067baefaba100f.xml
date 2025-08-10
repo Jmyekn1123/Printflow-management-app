@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>job_order</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 22:22:15</sys_created_on>
+        <sys_id>08508a3293c3ea107f067baefaba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>job_order</sys_name>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name>sys_ui_policy_action_08508a3293c3ea107f067baefaba100f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 22:22:15</sys_updated_on>
+        <table>x_1233104_print_0_payment</table>
+        <ui_policy display_value="Hide Job order field always">88508a3293c3ea107f067baefaba100b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=08508a3293c3ea107f067baefaba100f"/>
+</record_update>

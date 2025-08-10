@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76913bd09343a2107f067baefaba108c" extends="x_1233104_print_0_design_task" label="Print Task" max_length="40" name="x_1233104_print_0_print_task" type="collection">
+        <element choice="1" label="Print Status" max_length="40" name="print_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Printing" sequence="1" value="In Printing"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+            </choice>
+        </element>
+    </element>
+</database>

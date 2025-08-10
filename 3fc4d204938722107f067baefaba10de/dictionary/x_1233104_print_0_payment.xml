@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="703db93e9383ea107f067baefaba10b0" label="Payment" max_length="40" name="x_1233104_print_0_payment" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Client Name" max_length="32" name="client" reference="sys_user" type="reference"/>
+        <element label="Payment Reference" max_length="40" name="payment_reference" type="string"/>
+        <element label="Job order" max_length="32" name="job_order" reference="x_1233104_print_0_job_order" type="reference"/>
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+        <index name="index2">
+            <element name="job_order"/>
+        </index>
+    </element>
+</database>

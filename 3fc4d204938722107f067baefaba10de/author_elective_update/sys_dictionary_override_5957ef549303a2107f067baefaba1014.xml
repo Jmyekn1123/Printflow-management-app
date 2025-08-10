@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>priority</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1233104_print_0_print_task</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 11:27:33</sys_created_on>
+        <sys_id>5957ef549303a2107f067baefaba1014</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name>sys_dictionary_override_5957ef549303a2107f067baefaba1014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 11:27:33</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</application>
+        <file_path/>
+        <instance_id>1ed76148eb7ce2d0cbbffceacad0cdd4</instance_id>
+        <instance_name>dev316018</instance_name>
+        <name>sys_dictionary_override_5957ef549303a2107f067baefaba1014</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>true</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>priority</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1233104_print_0_print_task</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 11:27:33</sys_created_on><sys_id>5957ef549303a2107f067baefaba1014</sys_id><sys_mod_count>1</sys_mod_count><sys_name>priority</sys_name><sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package><sys_policy/><sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope><sys_update_name>sys_dictionary_override_5957ef549303a2107f067baefaba1014</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 11:27:33</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>87855078</payload_hash>
+        <record_name>priority</record_name>
+        <reverted_from/>
+        <source>84d4d204938722107f067baefaba10e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 11:27:33</sys_created_on>
+        <sys_id>9557ef549303a2107f067baefaba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198467cfea00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 11:27:33</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>5d57ef541003a21089dbf71638c8da1b</update_guid>
+        <update_guid_history>5d57ef541003a21089dbf71638c8da1b:87855078,dd57ef54ce03a2108baa9c0c16ba9016:1976218703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:09:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>25dc485b193e4c18b348e05ffacdf640</sys_id>
+        <sys_metadata>5957ef549303a2107f067baefaba1014</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_parent display_value="">1950ab1c93cf62107f067baefaba1069</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_scope_delete display_value="">a975edecb74b4b6cafe949dfd7cbf9e4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_5957ef549303a2107f067baefaba1014</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_5957ef549303a2107f067baefaba1014">9557ef549303a2107f067baefaba101c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:09:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
