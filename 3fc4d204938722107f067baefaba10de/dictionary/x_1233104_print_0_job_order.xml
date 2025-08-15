@@ -9,7 +9,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Job Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="5" value="new"/>
-                <element inactive_on_update="false" label="Client Approval" sequence="2" value="client_approval"/>
+                <element inactive_on_update="false" label="Design appoved for printing" sequence="2" value="client_approval"/>
                 <element inactive_on_update="false" label="Awaiting Payment" sequence="1" value="awaiting_payment"/>
                 <element inactive_on_update="false" label="Printing" sequence="6" value="printing"/>
                 <element inactive_on_update="false" label="In Design" sequence="4" value="in_design"/>

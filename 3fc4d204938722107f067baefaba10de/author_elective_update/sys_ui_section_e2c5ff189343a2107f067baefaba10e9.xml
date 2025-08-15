@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="e2c5ff189343a2107f067baefaba10e9" sys_domain="global" table="x_1233104_print_0_print_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_order.design_brief</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-10 18:34:15</sys_created_on>
+            <sys_id>1ad85a9593db22107f067baefaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">e2c5ff189343a2107f067baefaba10e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-10 18:34:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_print_instructions</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-10 18:34:15</sys_created_on>
+            <sys_id>16d85a9593db22107f067baefaba10cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">e2c5ff189343a2107f067baefaba10e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-10 18:34:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1233104_print_0_print_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-26 12:30:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2c5ff189343a2107f067baefaba10e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1233104_print_0_print_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+            <sys_update_name>sys_ui_section_e2c5ff189343a2107f067baefaba10e9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-26 12:30:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</application>
+        <file_path/>
+        <instance_id>1ed76148eb7ce2d0cbbffceacad0cdd4</instance_id>
+        <instance_name>dev316018</instance_name>
+        <name>sys_ui_section_e2c5ff189343a2107f067baefaba10e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="e2c5ff189343a2107f067baefaba10e9" sys_domain="global" table="x_1233104_print_0_print_task" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>job_order.design_brief</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-10 18:34:15</sys_created_on><sys_id>1ad85a9593db22107f067baefaba10cc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">e2c5ff189343a2107f067baefaba10e9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-10 18:34:15</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>additional_print_instructions</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-10 18:34:15</sys_created_on><sys_id>16d85a9593db22107f067baefaba10cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">e2c5ff189343a2107f067baefaba10e9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-10 18:34:15</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1233104_print_0_print_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 12:30:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e2c5ff189343a2107f067baefaba10e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1233104_print_0_print_task</sys_name><sys_overrides/><sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package><sys_policy/><sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope><sys_update_name>sys_ui_section_e2c5ff189343a2107f067baefaba10e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 12:30:42</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1102069723</payload_hash>
+        <record_name>Print Task</record_name>
+        <reverted_from/>
+        <source>065cad369343ea107f067baefaba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-10 18:34:15</sys_created_on>
+        <sys_id>96d85a9593db22107f067baefaba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198954309a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-10 18:34:15</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1ed85a9583db221073176f29ef8388ce</update_guid>
+        <update_guid_history>1ed85a9583db221073176f29ef8388ce:1102069723,bec533584043a210b8e26c52f3600010:865495173</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 22:21:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>032613652afc4052adcde2ff6e9f09a9</sys_id>
+        <sys_metadata>e2c5ff189343a2107f067baefaba10e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_parent display_value="Print Task">76913bd09343a2107f067baefaba108c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_scope_delete display_value="">a975edecb74b4b6cafe949dfd7cbf9e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e2c5ff189343a2107f067baefaba10e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e2c5ff189343a2107f067baefaba10e9">96d85a9593db22107f067baefaba10cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 22:21:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

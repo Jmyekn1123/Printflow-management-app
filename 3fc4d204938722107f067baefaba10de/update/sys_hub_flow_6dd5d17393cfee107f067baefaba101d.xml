@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=safari,integrationActivatedIn=standalone,timeFromCreateToActivate=257273000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=859716000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -12,18 +12,18 @@
         <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
         <description>When design task is assigned, job order status should be updated to \'In design\' and design task status should be updated to \'In progress\'.</description>
         <display_name_after_preview/>
-        <flow_priority/>
+        <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>design_task_flow</internal_name>
-        <label_cache>[{"name":"Updated_1.current.job_order.sys_id","label":"Trigger - Record Updated➛ Record➛Job Order➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_job_order","column_name":"sys_id","usedInstances":{"d5510948-70b5-4808-94ea-cea17cb88548":["conditions"]}},{"name":"d5510948-70b5-4808-94ea-cea17cb88548.Record","label":"3 - Look Up Record➛Job Order Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"aca5e41a-97af-4696-8e07-3a05949cf4d0":["record"],"62da9c55-7ad7-49b5-81e1-6c98f4c24bdb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛ Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_design_task","column_name":"sys_id","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"938eca82-1ce4-456f-ba79-5dbd994853bc":["record"],"a5e1dd5e-695f-4ba8-ac73-834b17b22227":["record"],"ff12b997-55a3-426f-862a-788eda66ea4f":["record"],"f3bcdd41-2f27-456b-b6e7-127b0750579b":["record"],"472efdae-a0e0-49a1-8d8b-0252c61fc3c1":["record"],"f29426ee-acc8-47dc-b600-d110e37790b5":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.job_order.sys_id","label":"Trigger - Record Updated➛ Record➛Job Order➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_job_order","column_name":"sys_id","usedInstances":{"d5510948-70b5-4808-94ea-cea17cb88548":["conditions"]}},{"name":"d5510948-70b5-4808-94ea-cea17cb88548.Record","label":"3 - Look Up Record➛Job Order Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"aca5e41a-97af-4696-8e07-3a05949cf4d0":["record"],"62da9c55-7ad7-49b5-81e1-6c98f4c24bdb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛ Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_design_task","column_name":"sys_id","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"938eca82-1ce4-456f-ba79-5dbd994853bc":["record"],"a5e1dd5e-695f-4ba8-ac73-834b17b22227":["record"],"ff12b997-55a3-426f-862a-788eda66ea4f":["record"],"f3bcdd41-2f27-456b-b6e7-127b0750579b":["record"],"472efdae-a0e0-49a1-8d8b-0252c61fc3c1":["record"],"f29426ee-acc8-47dc-b600-d110e37790b5":["record"],"0de60d40-04e7-4ce7-9053-7cc52b00d2dc":["record"],"b7340661-a4eb-4d99-9389-48d9f566236c":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>2dead9f793cfee107f067baefaba1076</master_snapshot>
         <master_snapshot_digest/>
         <name>Design task flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>cae72e84935b62507f067baefaba10db</remote_trigger_id>
-        <run_as>user</run_as>
+        <remote_trigger_id>17b1aa91931f22107f067baefaba10fb</remote_trigger_id>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6dd5d17393cfee107f067baefaba101d</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Design task flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_update_name>sys_hub_flow_6dd5d17393cfee107f067baefaba101d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:30</sys_updated_on>
+        <sys_updated_on>2025-08-15 20:39:13</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -53,7 +53,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=6dd5d17393cfee107f067baefaba101d"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1233104_print_0_design_task">assigned_toISNOTEMPTY<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <condition table="x_1233104_print_0_design_task">assigned_toISNOTEMPTY^state=9<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="9"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -67,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-06 22:27:38</sys_created_on>
+        <sys_created_on>2025-08-10 19:13:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>cae72e84935b62507f067baefaba10db</sys_id>
+        <sys_id>17b1aa91931f22107f067baefaba10fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-06 22:27:38</sys_updated_on>
+        <sys_updated_on>2025-08-10 19:13:06</sys_updated_on>
         <table>x_1233104_print_0_design_task</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -85,14 +86,14 @@
         <identifier>6dd5d17393cfee107f067baefaba101d</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-08 21:18:30</sys_created_on>
-        <sys_id>f44b24b093db26507f067baefaba109a</sys_id>
+        <sys_created_on>2025-08-15 20:39:12</sys_created_on>
+        <sys_id>a9652ccf9397a6107f067baefaba10f6</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:30</sys_updated_on>
-        <trigger display_value="">cae72e84935b62507f067baefaba10db</trigger>
+        <sys_updated_on>2025-08-15 20:39:13</sys_updated_on>
+        <trigger display_value="">17b1aa91931f22107f067baefaba10fb</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6dd5d17393cfee107f067baefaba101d^sys_idNOT INf44b24b093db26507f067baefaba109a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6dd5d17393cfee107f067baefaba101d^sys_idNOT INa9652ccf9397a6107f067baefaba10f6"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=6dd5d17393cfee107f067baefaba101d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6dd5d17393cfee107f067baefaba101d^sys_idNOT IN69d5d17393cfee107f067baefaba101e"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -374,12 +375,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 21:50:35</sys_created_on>
         <sys_id>29d5d17393cfee107f067baefaba103c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-06 22:26:53</sys_updated_on>
+        <sys_updated_on>2025-08-10 19:12:59</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -394,16 +395,16 @@
         <display_text/>
         <flow display_value="Design task flow">6dd5d17393cfee107f067baefaba101d</flow>
         <generation_source/>
-        <order>2</order>
+        <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:20</sys_created_on>
         <sys_id>58da59f793cfee107f067baefaba10aa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:20:01</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:42:10</sys_updated_on>
         <ui_id>a5e1dd5e-695f-4ba8-ac73-834b17b22227</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VUXWvbMBT9K0HPxvgjDW3eRkNg0LXQbnnpipCl60RM/pgkp8lC/vuubdkxaWkzyEuY3+6XdM7xuXreESnIlIxBBOFNOOFxGMdREETX4zCZxEkYiZgBhMQjOcsAOzXwQguM10xVdWK3+1EKZkHQ0OeV1pDb/R7rQppSse3CtWGGr6QSWCfT5xePlEzjiRY0me6OSqdCUiwBha2PHaZjjHZb1rEoeJUhLiq75J2bnLnK6OsMKzhUwwkDj8DGQi4AgaRMGfBIxnJkWegtmVpdYUIDEw+52vYdK5nblmjGNkb+wZvHQd2XAjLjToQ+pE6gNp3OmGVPeDK3le71KiQH02oiIGWVsrfDXNvwUFpZ5O2IZYnqpgtVZfl9qwjpDxj8j8ogCChrnjXyllb6tCpeHzuQc5k3kjiKquBM9RGzVsuksjWcHQEFjcYZK0uZL2mpi7VshhFK5i8VBn6qile808hl7jNe4/ZRVebPMT9r0gumZU3iGx6Dw3uPmK25VcyYAxXUkP6uaiQtMUeBNio0EtDGCfUw17K0X/CqNTjge8+ZPrn6yGH85mCowZkH429oGMVxGIyRKv56Gjhi1DLz6wwLcAK8bgG+N7/9fbhuB97k7oazo/u24Dbg6mwbcH1JG+BoXPwKfGb8IPrwaR04qfG6GZjeWHzqf1ZBEIvorcePqv/m9xNQdX6fS1DCvAOzMztkCMsCbWEfGd4VRwtX7J/9s7k+nATNd0He/29e/5e/ZkxwRvQIAAA=</values>
@@ -418,16 +419,16 @@
         <display_text/>
         <flow display_value="Design task flow">6dd5d17393cfee107f067baefaba101d</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 20:53:54</sys_created_on>
         <sys_id>b072da8893d762507f067baefaba1077</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:20:01</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:42:10</sys_updated_on>
         <ui_id>ff12b997-55a3-426f-862a-788eda66ea4f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIlG3JuVs0CFCgmwJJ2puiEEbkMCGWOpSi0niNvPsOJfqUuOlhmwX2zhye/vlnPtGfNpGW0Vk0l7mUK8USxRhLWLJgnOWYYymyZYY8j6ZRDRXSSouisZLG92B6H9hsPrQSHMqCzURvLdbu8ZHmpe5aA+uPYRlFxJ02kuajs0+fp1ELlk50aKOzzZOpH5VkoERDS6+2mp5qdOvWj2Uj+op0FXobfBd2noeZydtzmqFNXg6bRvjgsJZIOhSYDqdRBTUl2dj1LmIR5Pva7AN3unZjohU8dPpvujnlfp1CykwEE3bDIhg0htU5OLh2theutzu/Gi2wGz2RqKA37s1hbFzwvnW6qcctDkqz3d2YvqovR0ei3QEH9eg7EoGtT9Qrp8spC3V913y92oq80PVgSUjRNALMbgTOWV32zsvZRL2+OeX2GD7tNxocFlbQtrq+LVrb3OvhPlJfzW4NDWbKNF9JZqdv6xkIn+qMKgGzC4qfD+GPYLXP+086hjb7Oz/U+kuPb30fSZZk6SoRccYXaTxPBMRlLssYSq4W8/kyX5YsepxG3bp7Y6Dr9o5RqYovvU949C84VQxmD04XQ8P5zcLq1v1B8u4x+PM4DWzl7KVGTvm+bw/O3PP1UDCepiyZkz3UYUUSzCgcdH/9Bs5+QN6Ws5uhu07LDag9i7073Du5HCcCaPwnQRs79ARnefI/4iyk9e9BO/L6mLMjt/8TzERZlqrEVcxKIeJ5hnmcc8hiXCQiVTxNkkz9Ambfg2v+cvcePFx147TSAoYi7vHiAJxxka9SmS35glQmy6wEKmIJ9OXgzwm79AetJ6NXaCeNmlA+/rcMwUlA8ycfvO+nsgXx8jiX0xkGIvdcHAN5dRAPPKYv8zji9yvvHhUd731NsQJtirG/vgHpk9x+M7DfUnJEMSiFwv+jURqNpEYshj2v8oiqawQr7i78Tb6GI7LHxB8VlrinO54Rf1jO1wP+5nlPdeiKYEvhDyhUYyvwHTFk+PQ7MV8xzFKex6slp+8Epou4lGkaM/puIBJ3XL7Oc/z5H2jucVbsCgAA</values>
@@ -448,10 +449,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:21</sys_created_on>
         <sys_id>d0da59f793cfee107f067baefaba10ac</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:20:01</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:42:10</sys_updated_on>
         <ui_id>aca5e41a-97af-4696-8e07-3a05949cf4d0</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wf28ppUkj7NlEhbWIgwcQLoOjGvgVPjpPZDtBV/e+7SZy2AsZA4gWtb/fLPuf6nOZqzZRkc5ag5NEsOhBxFMcTzidpEuUHcR5NZAyIERsyAwVSp0VRWknxPei6SazXcjqN+CxJR4c8n46SlKejWYIwEgjRocjTdJqk4/N2brOhSalcpWF1GQ6gjLhTWlo0bH51M2QVWLrLo2Xz9ZPSW8FqyFFT63mP9il6v6qaWJaiLtD4TPXJkzC5CJXB1wVVaKiBE/Ehw0ePRiIBWYJ2OGQFGAm+tCs297amhEWQZ0avth13yviOaAGPTv2mmxPe9C2RmImwhG2YhQV16eUCPFzQycLXdruvUgl03U4kLqHW/mg/1zWcVV6VphvxkOt+utR1YU67jbDtAXvvUTsCgVXDs0He0Vpe3JUP5z3IY2XalQSKuhSgtxF4b1Ve+wbOmqHGdscFVJUyt1lly3vVDhOUYnyrKRgvdflAdzp1a8YgGtxj2iqMjym/aNOXYFVD4jsdQ8ObIXMrd6TBuR0V2mH2q26QdMQChazdQruCrFVCMyysqvwXuuoeA/DNMNghn76mMDHbCWrvzJ0lHrNoEscRT4gqPX3Gs59lnnUaeib/b2U+OAul9/ngDSh7H/xoX/9l1MEKz3In+7OD064QjDD9MCOkn8kIgcand8K/9M8nr/7D7implbzb077z4Gt3XXMeS2UCj+eq/1vb+xzwBpy9A44VauleAN7LHwvC5zHriDyxQCgOLkNx+z34MB9EB7z9fSI3/DefhZs/SMMXDCcJAAA=</values>
@@ -472,10 +473,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:21</sys_created_on>
         <sys_id>d8da59f793cfee107f067baefaba10ab</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:20:01</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:42:10</sys_updated_on>
         <ui_id>d5510948-70b5-4808-94ea-cea17cb88548</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VYUW/iOBD+K1GeKZcQINC3UyukPe1tpW13X/ZWlhM7xXfGztpOW4r47zuJnRABBbJLpVb36PHY/mbm+8ZOvq18RvxLn0yDaTadjiZxEERREIzHUYrDJInGaRIkeOj3fIEXFDwNTjiF4QPmRTl+QuEgisJgiHLFhEEB+lcmSCpCFXgRpnOOl1+d818y8W7cVDpnnCgq/Mtv33t+jhXsb2DmcrU1dSpAjhPKwfXOIdwCbJZ5M0TVnLV9bC/zPtkJi/8y6Pn0yVBBKGDIMNe05y+wINhItWwsimJyI/jGMIdEwI5+6fyk2TOcOwlKv4xCVCm1c80QuSxZc3aNDb41qkhNoZxrOpcspdrmg9AMF9xctW3W4SY3TAq7xIZtV0teLMQnmw6/2aAuClgKDSBoXgZaIndhZLdz+fi5RjljosqJm+QyxbwZYWMUSwpT4ln5lNMFbIQWOM+ZuAdmyAdWLQYsi/49h0E/4/IRDtXsXvRxWgLvQ15xfwb268r8FStWRvE3bFNRJmMcGIJsCbUsVJXKB5TyQlcTCgtt9/LXPV8v9RXHWm8ih5SjH0WJ2+bBRYxs0solqWK5+RO2eKAuuHWv1sjoIAWnG8qlUhBWotAtoQAaxMg/BSwmq9WXHIKlBIX9tFCQX9NvZNO3nuv1rn5+aY+OQjseZS20q3aY+0J3ktuxfdy3gZNceDbJDYPgPYkODn97muuuIpuCI1IKyUGSkQ2ftFQG2Vy2tLSrjM48PwFCzfPqxvKS5UuoHM0zRjnZd7PMyomtm2Xw/7xZ3iTJARBBtnpMcCaqZwIAfS32jw5SLwm3eFbRq3WPlDas010NYM9I77mzEk6AUyvhFs727iyePRDrfl9RZrvX10YngOhsAogG5xHAqgmzSeSenNcvw7Katf9z6Y+3/YGCrQXhep/AOp0Zdj1zsN4VcNRJwW2y2ZnrFzh35ifkC4rsvWYLmMNSdx6y+kWPjNxTszm99iLSPGL+3755xzhUF6oK7xWeo+HBL6Kk9RxlGVpA5VgOr2ZFUyCHRlhRlMlCEOTeyxsilZXMmNLGOe82ms8U9CM8CcL0zJx6lbfXeHe8iI/HUafyQ+bVgbjTtAeBeFUgXhNIt7C7NK3hGR+n525aM8x4VQ34FMpb5aRKSfVC4zpSyAOMOLGrnQgqPCuo3297+ySwt/0dwfouvqvP35pSipPhAI/jKAyDIAxIHEziOJyMk2yM42G20ShCWqTQTWHnDKgC26OaGnWdg93+Y1tq10ZzAqqagtdSlB/Zg9h4JSyor1fDOg7cNZRESk6x2Oood3BP/DFz+B1fR2+uq7yLv0wFu9vOtDXtzfVrvRsK9kWwHwX9UFJsQoPBJCTpxSQO44thRsYXU4JHF3iajOKI0HSYnfMp8P0n49uZtL8VAAA=</values>
@@ -568,16 +569,16 @@
         <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
         <copied_from_name/>
         <description>When design task is assigned, job order status should be updated to \'In design\' and design task status should be updated to \'In progress\'.</description>
-        <flow_priority/>
+        <flow_priority>MEDIUM</flow_priority>
         <internal_name>design_task_flow</internal_name>
-        <label_cache>[{"name":"Updated_1.current.job_order.sys_id","label":"Trigger - Record Updated➛ Record➛Job Order➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_job_order","column_name":"sys_id","usedInstances":{"d5510948-70b5-4808-94ea-cea17cb88548":["conditions"]}},{"name":"d5510948-70b5-4808-94ea-cea17cb88548.Record","label":"3 - Look Up Record➛Job Order Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"aca5e41a-97af-4696-8e07-3a05949cf4d0":["record"],"62da9c55-7ad7-49b5-81e1-6c98f4c24bdb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛ Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_design_task","column_name":"sys_id","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"938eca82-1ce4-456f-ba79-5dbd994853bc":["record"],"a5e1dd5e-695f-4ba8-ac73-834b17b22227":["record"],"ff12b997-55a3-426f-862a-788eda66ea4f":["record"],"f3bcdd41-2f27-456b-b6e7-127b0750579b":["record"],"472efdae-a0e0-49a1-8d8b-0252c61fc3c1":["record"],"f29426ee-acc8-47dc-b600-d110e37790b5":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.job_order.sys_id","label":"Trigger - Record Updated➛ Record➛Job Order➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_job_order","column_name":"sys_id","usedInstances":{"d5510948-70b5-4808-94ea-cea17cb88548":["conditions"]}},{"name":"d5510948-70b5-4808-94ea-cea17cb88548.Record","label":"3 - Look Up Record➛Job Order Record","reference":"x_1233104_print_0_job_order","reference_display":"Job Order","type":"reference","base_type":"reference","usedInstances":{"aca5e41a-97af-4696-8e07-3a05949cf4d0":["record"],"62da9c55-7ad7-49b5-81e1-6c98f4c24bdb":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛ Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1233104_print_0_design_task","column_name":"sys_id","usedInstances":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"938eca82-1ce4-456f-ba79-5dbd994853bc":["record"],"a5e1dd5e-695f-4ba8-ac73-834b17b22227":["record"],"ff12b997-55a3-426f-862a-788eda66ea4f":["record"],"f3bcdd41-2f27-456b-b6e7-127b0750579b":["record"],"472efdae-a0e0-49a1-8d8b-0252c61fc3c1":["record"],"f29426ee-acc8-47dc-b600-d110e37790b5":["record"],"0de60d40-04e7-4ce7-9053-7cc52b00d2dc":["record"],"b7340661-a4eb-4d99-9389-48d9f566236c":["record"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Design task flow</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Design task flow">6dd5d17393cfee107f067baefaba101d</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -587,7 +588,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2dead9f793cfee107f067baefaba1076</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -595,7 +596,7 @@
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:29</sys_updated_on>
+        <sys_updated_on>2025-08-15 20:39:12</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -679,14 +680,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:42</sys_created_on>
         <sys_id>29ead9f793cfee107f067baefaba1078</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:29</sys_updated_on>
+        <sys_updated_on>2025-08-15 20:39:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -847,14 +848,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:43</sys_created_on>
         <sys_id>edead9f793cfee107f067baefaba108b</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:29</sys_updated_on>
+        <sys_updated_on>2025-08-15 20:39:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -882,12 +883,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:43</sys_created_on>
         <sys_id>b5ead9f793cfee107f067baefaba109a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-06 22:27:37</sys_updated_on>
+        <sys_updated_on>2025-08-10 19:13:05</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -950,16 +951,16 @@
         <display_text/>
         <flow display_value="Design task flow">2dead9f793cfee107f067baefaba1076</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-06 21:36:43</sys_created_on>
         <sys_id>584c56c4931b62507f067baefaba101e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-06 22:27:38</sys_updated_on>
+        <sys_updated_on>2025-08-10 19:13:05</sys_updated_on>
         <ui_id>ff12b997-55a3-426f-862a-788eda66ea4f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIlG3JuVs0CFCgmwJJ2puiEEbkMCGWOpSi0niNvPsOJfqUuOlhmwX2zhye/vlnPtGfNpGW0Vk0l7mUK8USxRhLWLJgnOWYYymyZYY8j6ZRDRXSSouisZLG92B6H9hsPrQSHMqCzURvLdbu8ZHmpe5aA+uPYRlFxJ02kuajs0+fp1ELlk50aKOzzZOpH5VkoERDS6+2mp5qdOvWj2Uj+op0FXobfBd2noeZydtzmqFNXg6bRvjgsJZIOhSYDqdRBTUl2dj1LmIR5Pva7AN3unZjohU8dPpvujnlfp1CykwEE3bDIhg0htU5OLh2theutzu/Gi2wGz2RqKA37s1hbFzwvnW6qcctDkqz3d2YvqovR0ei3QEH9eg7EoGtT9Qrp8spC3V913y92oq80PVgSUjRNALMbgTOWV32zsvZRL2+OeX2GD7tNxocFlbQtrq+LVrb3OvhPlJfzW4NDWbKNF9JZqdv6xkIn+qMKgGzC4qfD+GPYLXP+086hjb7Oz/U+kuPb30fSZZk6SoRccYXaTxPBMRlLssYSq4W8/kyX5YsepxG3bp7Y6Dr9o5RqYovvU949C84VQxmD04XQ8P5zcLq1v1B8u4x+PM4DWzl7KVGTvm+bw/O3PP1UDCepiyZkz3UYUUSzCgcdH/9Bs5+QN6Ws5uhu07LDag9i7073Du5HCcCaPwnQRs79ARnefI/4iyk9e9BO/L6mLMjt/8TzERZlqrEVcxKIeJ5hnmcc8hiXCQiVTxNkkz9Ambfg2v+cvcePFx147TSAoYi7vHiAJxxka9SmS35glQmy6wEKmIJ9OXgzwm79AetJ6NXaCeNmlA+/rcMwUlA8ycfvO+nsgXx8jiX0xkGIvdcHAN5dRAPPKYv8zji9yvvHhUd731NsQJtirG/vgHpk9x+M7DfUnJEMSiFwv+jURqNpEYshj2v8oiqawQr7i78Tb6GI7LHxB8VlrinO54Rf1jO1wP+5nlPdeiKYEvhDyhUYyvwHTFk+PQ7MV8xzFKex6slp+8Epou4lGkaM/puIBJ3XL7Oc/z5H2jucVbsCgAA</values>
@@ -974,16 +975,16 @@
         <display_text/>
         <flow display_value="Design task flow">2dead9f793cfee107f067baefaba1076</flow>
         <generation_source/>
-        <order>2</order>
+        <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:43</sys_created_on>
         <sys_id>b5ead9f793cfee107f067baefaba1098</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-06 22:27:38</sys_updated_on>
+        <sys_updated_on>2025-08-10 19:13:05</sys_updated_on>
         <ui_id>a5e1dd5e-695f-4ba8-ac73-834b17b22227</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VUXWvbMBT9K0HPxvgjDW3eRkNg0LXQbnnpipCl60RM/pgkp8lC/vuubdkxaWkzyEuY3+6XdM7xuXreESnIlIxBBOFNOOFxGMdREETX4zCZxEkYiZgBhMQjOcsAOzXwQguM10xVdWK3+1EKZkHQ0OeV1pDb/R7rQppSse3CtWGGr6QSWCfT5xePlEzjiRY0me6OSqdCUiwBha2PHaZjjHZb1rEoeJUhLiq75J2bnLnK6OsMKzhUwwkDj8DGQi4AgaRMGfBIxnJkWegtmVpdYUIDEw+52vYdK5nblmjGNkb+wZvHQd2XAjLjToQ+pE6gNp3OmGVPeDK3le71KiQH02oiIGWVsrfDXNvwUFpZ5O2IZYnqpgtVZfl9qwjpDxj8j8ogCChrnjXyllb6tCpeHzuQc5k3kjiKquBM9RGzVsuksjWcHQEFjcYZK0uZL2mpi7VshhFK5i8VBn6qile808hl7jNe4/ZRVebPMT9r0gumZU3iGx6Dw3uPmK25VcyYAxXUkP6uaiQtMUeBNio0EtDGCfUw17K0X/CqNTjge8+ZPrn6yGH85mCowZkH429oGMVxGIyRKv56Gjhi1DLz6wwLcAK8bgG+N7/9fbhuB97k7oazo/u24Dbg6mwbcH1JG+BoXPwKfGb8IPrwaR04qfG6GZjeWHzqf1ZBEIvorcePqv/m9xNQdX6fS1DCvAOzMztkCMsCbWEfGd4VRwtX7J/9s7k+nATNd0He/29e/5e/ZkxwRvQIAAA=</values>
@@ -1074,18 +1075,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4aead9f793cfee107f067baefaba10c7","name":"plan","plan_signature":null}}</plan>
         <plan_id>6dd5d17393cfee107f067baefaba101d</plan_id>
-        <snapshot>479b2cb093db26507f067baefaba107f</snapshot>
+        <snapshot>3816ac0393d7a6107f067baefaba1075</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 22:12:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4aead9f793cfee107f067baefaba10c7</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 21:18:30</sys_updated_on>
-        <trigger display_value="">cae72e84935b62507f067baefaba10db</trigger>
+        <sys_updated_on>2025-08-15 20:39:13</sys_updated_on>
+        <trigger display_value="">17b1aa91931f22107f067baefaba10fb</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6dd5d17393cfee107f067baefaba101d"/>
 </record_update>

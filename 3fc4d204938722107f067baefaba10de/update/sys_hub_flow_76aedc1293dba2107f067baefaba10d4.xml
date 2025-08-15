@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=203012000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Actions taken when design rework is requested</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>design_rework_flow</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"d6026c41-41be-44e4-907a-3ffa983a6d3d":["record"],"bceda213-ca24-4b91-b9e1-5f9d91a796cb":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>8ea2eed29357e2107f067baefaba10b1</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Design rework flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>5ea2eed29357e2107f067baefaba10e1</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76aedc1293dba2107f067baefaba10d4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Design rework flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name>sys_hub_flow_76aedc1293dba2107f067baefaba10d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1233104_print_0_design_task">stateCHANGESTO1<item display_value="Rework" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ea2eed29357e2107f067baefaba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <table>x_1233104_print_0_design_task</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>76aedc1293dba2107f067baefaba10d4</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 20:37:55</sys_created_on>
+        <sys_id>6e15e0cf9397a6107f067baefaba10c9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <trigger display_value="">5ea2eed29357e2107f067baefaba10e1</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN6e15e0cf9397a6107f067baefaba10c9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN3aaedc1293dba2107f067baefaba10d7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>76aedc1293dba2107f067baefaba10d4</id>
+        <name>Design rework flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>3aaedc1293dba2107f067baefaba10d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:14:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3aaedc1293dba2107f067baefaba10d7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN3aaedc1293dba2107f067baefaba10e4,7aaedc1293dba2107f067baefaba10f3,faaedc1293dba2107f067baefaba10dd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</model>
+        <model_id>76aedc1293dba2107f067baefaba10d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>3aaedc1293dba2107f067baefaba10e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:18:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3aaedc1293dba2107f067baefaba10e4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</model>
+        <model_id>76aedc1293dba2107f067baefaba10d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>7aaedc1293dba2107f067baefaba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:14:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7aaedc1293dba2107f067baefaba10f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</model>
+        <model_id>76aedc1293dba2107f067baefaba10d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>faaedc1293dba2107f067baefaba10dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:18:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=faaedc1293dba2107f067baefaba10dd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN83ae105293dba2107f067baefaba1009"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:23</sys_created_on>
+        <sys_id>83ae105293dba2107f067baefaba1009</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:50:51</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN9f92aed29357e2107f067baefaba10ac,c59f909293dba2107f067baefaba10e0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:50:51</sys_created_on>
+        <sys_id>9f92aed29357e2107f067baefaba10ac</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:58:32</sys_updated_on>
+        <ui_id>bceda213-ca24-4b91-b9e1-5f9d91a796cb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X227bOBCGX6XQteklJUqmclfYDhog2wB22r3oFgLFQ0wsLbk6pPEaefelJMqSD3HTrRMgQC81PPiff+bzSF82juLOhYNDJgjFiIyQCyGCQeAxiuLYC1gMY4GdgZPQpTA7M8HSjJvne6rLKrDZfFpxWggeoSErs0wkxeOjWecqX2m6/my3mQhbKM3NunPx5evAWdHM3FiIzLnY7C09V5KmsdBm66zVtK+xWK+qZ56ycml0RaoNXtuTE7vy7mpiVsyhSg4aOOKhEAkXRoekOhcDZ0kTk2SarZ2LIitNIBOU3yR6vd2xUEnR5LmkD7n61/yw51b7pDCJMevB9jGy/jRhOaEFnZubWVFmW7tSxUTeWMKFpKUuxv1Ys+FmVag0aY4UNNbt6VSXy+RjY4izvaBXjjI3IsSqyrNS3qQl54v0+6wVeamS2hGbok4Z1dsnWhSZisuikrNxSnV7zOwmfNxuqbQpf1SLjvK0zGqTZtPxzWwS/fX+dvxhOotm0/nt7Gp8O61OCC3qq5d0tVLJXbTK0ntVKzT5Lod32jwMpU6/m8RydZcMKavMGZrS0eGliU/q8GeaqepH/zTXmMOVyk+J+laKq7rxpEQeCgKAEPQARnEAQiJ8AIVPse/iwA9c53Hg5Ot8rGmedx6b4kbfysqixnHrbVSXp0mz7tDqMMvUqnhv5N0L6+jjoIXRP9n5tGv03p0dkA8Rcj0PQWzsMT0ZQWuGMTr/5xxg/lheC+Zt3Y/H5Vo2D2LX/bPvPjYLlkz3NJk20qHZ9PQRMgl8Q2TatH4dzR2vd8nccVvlUdOfVnR962vh5yISEhx7wIuxD3AoJSCQYIAFhcx3+Qgj9j/w+yF0p8eN7LqYpQlXVV55D7q8MCPw7xJCj6NDxvZWzzoIZY+3cV/aMbkWuoPY9bELLHTeucYhhvAtYXeugbhj9i51O3a/Cl2CkyD2IQFCEgKwNyIgRK4LgoByhDDjEr7scIP8VDfL3ptmoZYiLYtIanrXIw0e4tX+P/0cV89Q0nI1Teq/R6voSYmWrjhNtaDJ/jwz7fTHpVVq0cI/Oc9OsfWGyDrbQOuc3ptmfa9fhSvGKDHjiYLQYwLgIGaASCaBJ2Jfen5M4hF8ganFTvdweNiqvMxoXcWOqDO8Ez5DR8vSpBPwtDRLUl2b/fj14UUWJ/83Tr+E04Hde19v3cJLMbUw5yZ0nVddYRg+pEwgOvLj6oOMAuyGCNAQuyAMxEhgSQKPhi9AGUEnu1setnLOFoKXWpyXsmfoaCmbdwKelmYp6xp9F7BZL24JC85GGDl4GWTLpC/uGG+9rN4kd3IuaMYWl0roqp72S+wJGvtl2QWxX5jXmW6uizwuGEDcvDpiN3AB8fAIjEISQ2xaL/bEGbn7+h8oPoaolxQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9f92aed29357e2107f067baefaba10ac"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:18:21</sys_created_on>
+        <sys_id>c59f909293dba2107f067baefaba10e0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:58:32</sys_updated_on>
+        <ui_id>d6026c41-41be-44e4-907a-3ffa983a6d3d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSdqk3K2okJDYInG6WaHIscdg4RxwHKBb8e47TtJzOS6stFeVx6d//pkv7q+5I7lz4IQ85nwsiCcIIR7xhsQnMcSQsmgUgR87fSenGeBKDazQHMcPVNU2MJ9flpwa4AkZsFpryM3zM85zWZWKzq66ZRhht1JxnHcOfl33nZJqPNGAdg7mW1PvlaRoCgqXni00bWs0s9KOecHqDHUlchE86XZOupne8QRncJOVQ/oOPBnIOaAOQVUFfSejOSZZ6NkyooHy01ytArcyN22iGX2q5G+8OfDtOgGYGetMWA6TzqA2LCbU0HOja2ZqvfSrkAyq1hMOgtbKHK7H2gWnpZFF3m4xNFWL3YWqs3zaOuIsD1irR12hCChtolY5Xo5ZiPPb4vFsIfJI5o0lXYqqYFQtR9QYLdPaWDlzp5YX+9xuw/v9BgXNwoyWpcxvklIXD7K5D9VngxuFg4FQxSPKrORNPqDMpjrAStDBEcYnTfiKamnz/onH4GZ752Uu72s4tn3EiRcFY4+5kT8M3NBj1E1jnro09cUwDEfxKCXOc9+pZtWholW1cgxLldzXNuHWv86ppDG7cTppGs5uZlqW5gfKe4DOn+d+x1ZMXmvkwF/17dqZK76eEuIHAfFCtAc7LPE6MxJDq7sv4Owd8hacXTTdtV9uh9pO7GR9b2/aTnSg+R8Ere3QPZzF3n/EWZfW34O24fUmZxtu/xPMWJqmIoWxS1LG3DCC2I19Grkw9Fgg/MDzIvEJzN6CK3y9e9cerrwwUkhGmyKu8OJiHIR4xDggke/jt0J4oyilWMSUEo/zXcKm9qBZr/UKdK8QPQ2Phb7DH3SjMh9/6t5OYoHgdDOL/bl1LK6I2ETxbC3ekRi8TmIL3mdePCw3PNhqQkalStrOegHPrdy+GNWXlGzwS4UAZv/LCAmKYwsmzZ5veT7FOVDNbo/sTbaGLaybrG8UFonHO3ZYXy/n96F+sdtTFZiksyWxBySi0Bm1HdFkuP2FCMcEosCP3fHIxy8EBEM35UHgEvxiACBxPv+eh/j6DyQ7Tu/mCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c59f909293dba2107f067baefaba10e0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=76aedc1293dba2107f067baefaba10d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>3eaedc1293dba2107f067baefaba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:14:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>b6aedc1293dba2107f067baefaba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:14:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 12:14:22</sys_created_on>
+        <sys_id>f6aedc1293dba2107f067baefaba10e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 12:14:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_76aedc1293dba2107f067baefaba10d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_76aedc1293dba2107f067baefaba10d4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name/>
+        <description>Actions taken when design rework is requested</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>design_rework_flow</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_1233104_print_0_design_task","reference_display":"Design Task","type":"reference","base_type":"reference","usedInstances":{"d6026c41-41be-44e4-907a-3ffa983a6d3d":["record"],"bceda213-ca24-4b91-b9e1-5f9d91a796cb":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Design rework flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Design rework flow">76aedc1293dba2107f067baefaba10d4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ea2eed29357e2107f067baefaba10b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8ea2eed29357e2107f067baefaba10b1^sys_idNOT IN8ea2eed29357e2107f067baefaba10b2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8ea2eed29357e2107f067baefaba10b1</id>
+        <name>Design rework flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:02</sys_created_on>
+        <sys_id>8ea2eed29357e2107f067baefaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8ea2eed29357e2107f067baefaba10b2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8ea2eed29357e2107f067baefaba10b1^sys_idNOT IN5ea2eed29357e2107f067baefaba10c2,82a2eed29357e2107f067baefaba10b4,9aa2eed29357e2107f067baefaba10c9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</model>
+        <model_id>8ea2eed29357e2107f067baefaba10b1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:02</sys_created_on>
+        <sys_id>5ea2eed29357e2107f067baefaba10c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ea2eed29357e2107f067baefaba10c2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</model>
+        <model_id>8ea2eed29357e2107f067baefaba10b1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:02</sys_created_on>
+        <sys_id>82a2eed29357e2107f067baefaba10b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=82a2eed29357e2107f067baefaba10b4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</model>
+        <model_id>8ea2eed29357e2107f067baefaba10b1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>9aa2eed29357e2107f067baefaba10c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9aa2eed29357e2107f067baefaba10c9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8ea2eed29357e2107f067baefaba10b1^sys_idNOT IN96a2eed29357e2107f067baefaba10d6"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>96a2eed29357e2107f067baefaba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8ea2eed29357e2107f067baefaba10b1^sys_idNOT IN12a2eed29357e2107f067baefaba10d6,52a2eed29357e2107f067baefaba10d5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>12a2eed29357e2107f067baefaba10d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <ui_id>d6026c41-41be-44e4-907a-3ffa983a6d3d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSdqk3K2okJDYInG6WaHIscdg4RxwHKBb8e47TtJzOS6stFeVx6d//pkv7q+5I7lz4IQ85nwsiCcIIR7xhsQnMcSQsmgUgR87fSenGeBKDazQHMcPVNU2MJ9flpwa4AkZsFpryM3zM85zWZWKzq66ZRhht1JxnHcOfl33nZJqPNGAdg7mW1PvlaRoCgqXni00bWs0s9KOecHqDHUlchE86XZOupne8QRncJOVQ/oOPBnIOaAOQVUFfSejOSZZ6NkyooHy01ytArcyN22iGX2q5G+8OfDtOgGYGetMWA6TzqA2LCbU0HOja2ZqvfSrkAyq1hMOgtbKHK7H2gWnpZFF3m4xNFWL3YWqs3zaOuIsD1irR12hCChtolY5Xo5ZiPPb4vFsIfJI5o0lXYqqYFQtR9QYLdPaWDlzp5YX+9xuw/v9BgXNwoyWpcxvklIXD7K5D9VngxuFg4FQxSPKrORNPqDMpjrAStDBEcYnTfiKamnz/onH4GZ752Uu72s4tn3EiRcFY4+5kT8M3NBj1E1jnro09cUwDEfxKCXOc9+pZtWholW1cgxLldzXNuHWv86ppDG7cTppGs5uZlqW5gfKe4DOn+d+x1ZMXmvkwF/17dqZK76eEuIHAfFCtAc7LPE6MxJDq7sv4Owd8hacXTTdtV9uh9pO7GR9b2/aTnSg+R8Ere3QPZzF3n/EWZfW34O24fUmZxtu/xPMWJqmIoWxS1LG3DCC2I19Grkw9Fgg/MDzIvEJzN6CK3y9e9cerrwwUkhGmyKu8OJiHIR4xDggke/jt0J4oyilWMSUEo/zXcKm9qBZr/UKdK8QPQ2Phb7DH3SjMh9/6t5OYoHgdDOL/bl1LK6I2ETxbC3ekRi8TmIL3mdePCw3PNhqQkalStrOegHPrdy+GNWXlGzwS4UAZv/LCAmKYwsmzZ5veT7FOVDNbo/sTbaGLaybrG8UFonHO3ZYXy/n96F+sdtTFZiksyWxBySi0Bm1HdFkuP2FCMcEosCP3fHIxy8EBEM35UHgEvxiACBxPv+eh/j6DyQ7Tu/mCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=12a2eed29357e2107f067baefaba10d6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Design rework flow">8ea2eed29357e2107f067baefaba10b1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>52a2eed29357e2107f067baefaba10d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <ui_id>bceda213-ca24-4b91-b9e1-5f9d91a796cb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X227bOBCGX6XQteklJUqmclfYDhog2wB22r3oFgLFQ0wsLbk6pPEaefelJMqSD3HTrRMgQC81PPiff+bzSF82juLOhYNDJgjFiIyQCyGCQeAxiuLYC1gMY4GdgZPQpTA7M8HSjJvne6rLKrDZfFpxWggeoSErs0wkxeOjWecqX2m6/my3mQhbKM3NunPx5evAWdHM3FiIzLnY7C09V5KmsdBm66zVtK+xWK+qZ56ycml0RaoNXtuTE7vy7mpiVsyhSg4aOOKhEAkXRoekOhcDZ0kTk2SarZ2LIitNIBOU3yR6vd2xUEnR5LmkD7n61/yw51b7pDCJMevB9jGy/jRhOaEFnZubWVFmW7tSxUTeWMKFpKUuxv1Ys+FmVag0aY4UNNbt6VSXy+RjY4izvaBXjjI3IsSqyrNS3qQl54v0+6wVeamS2hGbok4Z1dsnWhSZisuikrNxSnV7zOwmfNxuqbQpf1SLjvK0zGqTZtPxzWwS/fX+dvxhOotm0/nt7Gp8O61OCC3qq5d0tVLJXbTK0ntVKzT5Lod32jwMpU6/m8RydZcMKavMGZrS0eGliU/q8GeaqepH/zTXmMOVyk+J+laKq7rxpEQeCgKAEPQARnEAQiJ8AIVPse/iwA9c53Hg5Ot8rGmedx6b4kbfysqixnHrbVSXp0mz7tDqMMvUqnhv5N0L6+jjoIXRP9n5tGv03p0dkA8Rcj0PQWzsMT0ZQWuGMTr/5xxg/lheC+Zt3Y/H5Vo2D2LX/bPvPjYLlkz3NJk20qHZ9PQRMgl8Q2TatH4dzR2vd8nccVvlUdOfVnR962vh5yISEhx7wIuxD3AoJSCQYIAFhcx3+Qgj9j/w+yF0p8eN7LqYpQlXVV55D7q8MCPw7xJCj6NDxvZWzzoIZY+3cV/aMbkWuoPY9bELLHTeucYhhvAtYXeugbhj9i51O3a/Cl2CkyD2IQFCEgKwNyIgRK4LgoByhDDjEr7scIP8VDfL3ptmoZYiLYtIanrXIw0e4tX+P/0cV89Q0nI1Teq/R6voSYmWrjhNtaDJ/jwz7fTHpVVq0cI/Oc9OsfWGyDrbQOuc3ptmfa9fhSvGKDHjiYLQYwLgIGaASCaBJ2Jfen5M4hF8ganFTvdweNiqvMxoXcWOqDO8Ez5DR8vSpBPwtDRLUl2b/fj14UUWJ/83Tr+E04Hde19v3cJLMbUw5yZ0nVddYRg+pEwgOvLj6oOMAuyGCNAQuyAMxEhgSQKPhi9AGUEnu1setnLOFoKXWpyXsmfoaCmbdwKelmYp6xp9F7BZL24JC85GGDl4GWTLpC/uGG+9rN4kd3IuaMYWl0roqp72S+wJGvtl2QWxX5jXmW6uizwuGEDcvDpiN3AB8fAIjEISQ2xaL/bEGbn7+h8oPoaolxQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=52a2eed29357e2107f067baefaba10d5"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:02</sys_created_on>
+        <sys_id>42a2eed29357e2107f067baefaba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>5ea2eed29357e2107f067baefaba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_id>d2a2eed29357e2107f067baefaba10c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Print Production Management App" source="x_1233104_print_0">3fc4d204938722107f067baefaba10de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Print Production Management App">3fc4d204938722107f067baefaba10de</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 21:51:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8ea2eed29357e2107f067baefaba10b1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>76aedc1293dba2107f067baefaba10d4</sys_id>
+        <latest_snapshot>8ea2eed29357e2107f067baefaba10b1</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=76aedc1293dba2107f067baefaba10d4^sys_idNOT IN9ea2eed29357e2107f067baefaba10e3"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9ea2eed29357e2107f067baefaba10e3","name":"plan","plan_signature":null}}</plan>
+        <plan_id>76aedc1293dba2107f067baefaba10d4</plan_id>
+        <snapshot>64d9ac4793d7a6107f067baefaba1027</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 21:51:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ea2eed29357e2107f067baefaba10e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 20:37:55</sys_updated_on>
+        <trigger display_value="">5ea2eed29357e2107f067baefaba10e1</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=76aedc1293dba2107f067baefaba10d4"/>
+</record_update>

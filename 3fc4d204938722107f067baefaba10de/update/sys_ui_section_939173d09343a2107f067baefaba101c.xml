@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>4e0b3fdc9343a2107f067baefaba10fd</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,41 +18,41 @@
             <element>job_order</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>460b3fdc9343a2107f067baefaba10fe</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_order.sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>4e0b3fdc9343a2107f067baefaba10fe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_machine</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>460b3fdc9343a2107f067baefaba10ff</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>design_artwork</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>4e0b3fdc9343a2107f067baefaba10ff</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1002</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>460b7fdc9343a2107f067baefaba1000</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1002</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,55 +88,97 @@
             <element>priority</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>4e0b7fdc9343a2107f067baefaba1000</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>job_order.date_submitted</element>
+            <element>machine</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>460b7fdc9343a2107f067baefaba1001</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>closed_at</element>
+            <element>assigned_operator</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>4e0b7fdc9343a2107f067baefaba1001</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>print_group</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:53:36</sys_created_on>
-            <sys_id>460b7fdc9343a2107f067baefaba1002</sys_id>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:53:36</sys_updated_on>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_order.design_brief</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>cae13e1a9397e2107f067baefaba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_print_instructions</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-13 22:57:40</sys_created_on>
+            <sys_id>c2e13e1a9397e2107f067baefaba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">939173d09343a2107f067baefaba101c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-13 22:57:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-26 12:30:43</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 12:30:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6ac5ff189343a2107f067baefaba10ee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1233104_print_0_print_task" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">22c5ff189343a2107f067baefaba10ea</sys_ui_form>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1233104_print_0_print_task" sys_domain="global" view="Default view">e2c5ff189343a2107f067baefaba10e9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 12:30:43</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1233104_print_0_print_task</name>
             <roles/>
